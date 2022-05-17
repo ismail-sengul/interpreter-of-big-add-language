@@ -1,0 +1,34 @@
+int size. {olmu
+
+	yor}
+int sum.
+move 5 to size.
+loop size times {ignore me, I am a comment}
+[ out size    ,    newline     .
+add size            to       sum      .
+]
+loop 5 times out "\/".
+out newline, "Sum:         "    , sum     , newline  .
+
+loop sum times out "* ".
+out newline.
+
+move 6 to size.  
+loop size times {Simdi olur
+
+
+			mu ? }
+[ out size    ,    newline     .
+add size            to       sum      .
+]
+
+out newline, "Sum: ", sum        .
+   	int i.
+int j .
+loop 6 times [ 
+	loop 5 times[
+	out "i: " , i , "j: " , j , newline .
+	sub 2 to i.
+	]
+	add 1 to j.
+]
